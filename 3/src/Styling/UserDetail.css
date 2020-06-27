@@ -1,0 +1,28 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+
+}
+#close{
+    background-color: red;
+    color: white;
+    padding: 20px;
+}
+.outer{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    box-shadow: 1px 0px 10px grey;
+    flex-wrap: wrap;
+}
+.holder{
+    justify-content: center;
+    display: flex;
+}
+.holder2{
+    width: 70%;
+    justify-content:start ;
+    display: flex;
+}

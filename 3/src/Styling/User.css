@@ -1,0 +1,31 @@
+.mainRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 97%;
+    border:1px solid whitesmoke;
+   padding:10px;
+   
+}
+.mainRow:hover{
+    display: flex;
+    background-color: whitesmoke;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 97%;
+    border:1px solid whitesmoke;
+}
+.mainRow > td{
+    width: 17%;
+}
+#btns{
+    display: flex;
+    flex-direction: row;
+}
+.btn{
+    background-color: royalblue;
+    color: white;
+    padding: 12px;
+    margin:5px;
+    border-radius: 10px;
+}
