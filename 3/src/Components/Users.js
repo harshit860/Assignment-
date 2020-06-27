@@ -1,11 +1,15 @@
 import React, { useState, useEffect } from 'react'
 import URL from './../../Axios'
 import './../Styling/User.css'
+
+//Actions.....
 import {saveUsers} from './../Redux/Actions/SaveUsers'
 import {deleteUser} from './../Redux/Actions/Delete'
 import {getUser} from './../Redux/Actions/GetUser'
 import {SortEmail} from './../Redux/Actions/SortEmail'
 import {SortName} from './../Redux/Actions/SortName'
+
+
 import {connect} from 'react-redux'
 
  function Users(props) {

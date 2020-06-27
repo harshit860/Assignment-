@@ -5,10 +5,20 @@ let stateObj = {
 
 export default (state = stateObj, action) => {
     switch (action.type) {
+
+            ///////////////////////
+
+
         case 'saveUsers':
             return {
                 Users:action.users
             }
+
+
+            ///////////////////////////
+
+
+
         case 'deleteUser':
             let newusers = []
            state.Users.map(user => {
@@ -21,6 +31,10 @@ export default (state = stateObj, action) => {
             return {
                 Users:newusers
             }
+
+            /////////////////////////////
+
+
         case 'SortEmail':
             function merge(arr){
                 if(arr.length <=1)
@@ -59,7 +73,11 @@ export default (state = stateObj, action) => {
               return {
                   Users:sortedUser
               }
-        ///////////////
+
+
+        /////////////////////////////////////////////////
+
+
         case 'SortName' :
             function start(arr){
                 if(arr.length <=1)
@@ -97,6 +115,10 @@ export default (state = stateObj, action) => {
             return {
                     Users:SortedUsers
             }
+
+     //////////////////////////////
+
+
         case 'getUser':
             return {
                 CurrentUser:action.user

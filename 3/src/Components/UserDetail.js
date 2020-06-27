@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import './../Styling/UserDetail.css'
+
 function UserDetail(props) {
 
     function go(){
