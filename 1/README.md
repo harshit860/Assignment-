@@ -1,5 +1,5 @@
 
-# React Comment Module
+# Comments Module
 
 ## I built this project using CRA Boiler plate.
 
