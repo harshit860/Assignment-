@@ -11,6 +11,9 @@ li{
     width:20%;
     
 }
+body{
+    background-color: black;
+}
 button{
     text-align: center;
     width: 100%;
