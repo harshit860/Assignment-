@@ -8,6 +8,6 @@
   - Go to build folder
   - Run index.html with liverserver
 
-## If the above step does not workc --> npm install --> npm start 
+## If the above step does not work --> npm install --> npm start 
   
   ![](https://i.imgur.com/07B97d0.png)
